@@ -160,11 +160,15 @@ body {
 		height : 30rem;
 	}
 
+	.item__radio:checked ~ .item__title .item__close {
+		opacity : 0;
+	}
+
 	.wrapper:hover .item__title {
 		color : tomato;
 	}
 
-	.wrapper:hover .item__close {
+	.wrapper:hover .item__title .item__close  {
 		opacity : 1;
 	}
 
