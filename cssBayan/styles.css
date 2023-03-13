@@ -81,7 +81,6 @@ body {
 	height: 100%;
 	object-fit: contain;
 	width : 100%;
-
 }
 
 .item__radio:checked ~ .item__title {
@@ -154,6 +153,10 @@ body {
 		width: 1.8rem;
 		height: 1.8rem;
 		fill: tomato;
+	}
+	
+	.item__input img {
+		cursor: pointer;
 	}
 
 	.item__radio:checked ~ .item__input {
