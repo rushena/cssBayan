@@ -181,6 +181,9 @@ body {
 	
 	.item:hover .item__title {color: green;}
 	.item:hover .item__close svg {fill: green;}
+	
+	.item__title:active {color: purple;}
+	.item__close:active svg {fill: purple;}
 
 	.item:hover .item__input {
 		height : 30rem;
