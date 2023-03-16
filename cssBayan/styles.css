@@ -125,7 +125,7 @@ body {
 	}
 }
 
-@media all and (min-width : 1024px) {
+@media all and (min-width : 1200px) {
 	body {
 		padding : 0 2rem;
 	}
@@ -178,6 +178,9 @@ body {
 	.item:hover .item__close {
 		transform: none;
 	}
+	
+	.item:hover .item__title {color: green;}
+	.item:hover .item__close svg {fill: green;}
 
 	.item:hover .item__input {
 		height : 30rem;
